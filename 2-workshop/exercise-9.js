@@ -1,3 +1,5 @@
+
+
 function exercise9() {
   // Exercise 9
   //
@@ -28,6 +30,20 @@ function exercise9() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let i=1; i<101; i++){
+    let word = '';
+    if (i%3 === 0){
+      word = 'Fizz';
+    }
+    if (i%5 === 0){
+      word = word + "Buzz";
+    }
+    if (i%3 !==0 && i%5 !== 0){
+      word = i;
+    }
+    console.log(word);
+  }
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
