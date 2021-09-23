@@ -20,6 +20,17 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let fib1 = 0;
+  let fib2 = 1;
+
+  for (let i=0; i < 24; i++){
+  //  console.log(fib1);
+  //  console.log(fib2);
+    fib1 = fib1 + fib2;
+    fib2 = fib2 + fib1; 
+    }
+
+  console.log(fib2);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -27,8 +38,9 @@ function exercise13() {
   //
   //
   //
-  //
+  //  
 }
+
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-13
