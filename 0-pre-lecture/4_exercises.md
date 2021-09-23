@@ -14,7 +14,8 @@ _We will correct these exercises in class._
 5. 400 <= 400 && 399 < 400 && (30 > 31 || 400 > 31) - TRUE
 6. true && false && false || false && true - FALSE
 7. true && false || true || false - TRUE
-8. true && false && false || false && true ? true && false && false || false && true : 1 < 2 && 2 > 1 - 
+8. true && false && false || false && true ? true && false && false || false && true : 1 < 2 && 2 > 1 - TRUE
+(if A then B else C - A is false so it's not B it's C and C is TRUE)
 ```
 
 ---
