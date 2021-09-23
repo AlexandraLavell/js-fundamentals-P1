@@ -8,7 +8,16 @@ function exercise8() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
 
+  let sum = 0;
+
+  for (let i=1; i<5001 ; i++){
+    if(i%4 === 0){
+      sum = sum + i;
+    }
+  }
   console.log(`The sum is ${sum}`);
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -18,6 +27,7 @@ function exercise8() {
   //
   //
 }
+
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-8
