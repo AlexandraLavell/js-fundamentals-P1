@@ -15,6 +15,22 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  
+for (let i = 2; i < 201; i++){
+  let isPrime = true;
+
+  for (let j = 2 ; j < i ; j++){     
+    if(i%j === 0){      
+    isPrime = false;    
+    }
+  }
+  if(isPrime){
+    console.log(i);
+  }  
+}
+
+}
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -23,7 +39,7 @@ function exercise12() {
   //
   //
   //
-}
+
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-12
