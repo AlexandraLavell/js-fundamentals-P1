@@ -13,6 +13,11 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let triangle = '';
+  for(let i=0; i < 7; i++){
+    triangle = triangle + '#';
+    console.log(triangle);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -22,6 +27,7 @@ function exercise10() {
   //
   //
 }
+
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-10
